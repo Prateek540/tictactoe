@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.result {
+  padding-bottom: 10px;
+}
+
+.board {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+}
+
+.row {
+  display: flex;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  border: 1px solid rgb(84, 83, 83);
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.restart {
+  margin-top: 20px;
+  height: 50px;
+  width: 80px;
+}
